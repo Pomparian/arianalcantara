@@ -1,0 +1,43 @@
+body {
+    background-image: url('');
+    backgroud-size: auto 100vh;
+    font-family:Verdana; 
+    height: 100vh; 
+  }
+  
+  .menu{
+   background-color: black; 
+    
+  }
+  
+  .menu ul{
+   display: flex;
+    justify-content: space-around;
+     
+  }
+  
+  .menu li{
+    list-style: none;
+  
+  }
+  
+  a{
+    color: whitesmoke;
+    text-decoration: none;
+  
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  
+  }
+  
+  .site-subtitle,
+  .site-title{
+    color: black;
+   text-align: center; 
+  }
+  
+  .site-subtitle{
+    font-style: italic;
+  }
